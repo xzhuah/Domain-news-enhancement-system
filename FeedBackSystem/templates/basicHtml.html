@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        {% if title %}
+        <title>{{ title }} - Microblog</title>
+        {% else %}
+        <title>Welcome to News Page</title>
+        {% endif %}
+    </head>
+    <body>
+    <script>
+        function redder(id){
+            var x = id;
+            var colorString=x.style.background;
+            if (colorString==""){
+                colorString = "rgb(255,255,255)";
+            }
+            //console.log(x.style.background);
+            var colorsOnly =colorString.substring(colorString.indexOf('(') + 1, colorString.lastIndexOf(')')).split(/,\s*/);
+            console.log(colorsOnly)
+            var redvalue = parseInt(colorsOnly[0]);
+            var greenvalue = parseInt(colorsOnly[1]);
+            var bluevalue = parseInt(colorsOnly[2]);
+
+            x.style.background = "rgb("+(redvalue+10)+","+(greenvalue-10)+","+(bluevalue)+")";
+
+        }
+        function greener(id){
+            var x = id;
+            var colorString=x.style.background;
+            if (colorString==""){
+                colorString = "rgb(255,255,255)";
+            }
+            //console.log(x.style.background);
+            var colorsOnly =colorString.substring(colorString.indexOf('(') + 1, colorString.lastIndexOf(')')).split(/,\s*/);
+            console.log(colorsOnly)
+            var redvalue = parseInt(colorsOnly[0]);
+            var greenvalue = parseInt(colorsOnly[1]);
+            var bluevalue = parseInt(colorsOnly[2]);
+
+
+
+
+            x.style.background = "rgb("+(redvalue-10)+","+(greenvalue+10)+","+(bluevalue)+")";
+        }
+
+    </script>
+    <div id="statisticpanel" style="position:fixed;margin-top:30px;margin-left:70%;width:20%">{{keywords}}</div>
+    <div class="btn-group" role="group" aria-label="..." style="margin-left: 30px;margin-top:30px">
+        <a href="./highrank" class="btn btn-default">High Rank</a>
+        <a href="./midrank" class="btn btn-default">Mid Rank</a>
+        <a href="./lowrank" class="btn btn-default">Low Rank</a>
+        <a href="./submit" class="btn btn-default">Submit your feedback and re-rank</a>
+    </div>
+        <h1 style="padding-left:30pt">List of {{title}}({{all_news|length}})</h1>
+        {% for news in all_news %}
+    <div style="background:rgb(127,127,127);color:#f1f1f1;width:1200px;padding-left:30px;padding-top:20px;padding-bottom: 10px;margin-top:30px;margin-bottom:30px;margin-left:30px; border-radius: 20px"><a href="{{news.url}}" target="_blank" style="color:#f1f1f1"><h2>{{ news["title"] }}({{news["score"]}})</h2></a>
+            <p style="font-size: large">{{ news["content"] }}</p>
+
+        <a style="background: #619D7F" class="btn btn-default" href="./upgrade?title=+{{news['title']}}&content=+{{news['content']}}" onclick="greener(this.parentNode)">Upgrade this news</a>
+
+        <a style="background: #B14D7F"  class="btn btn-default" href="./downgrade?title=+{{news['title']}}&content=+{{news['content']}}" onclick="redder(this.parentNode)">Downgrade this news</a>
+
+        <hr/>
+        <p>{{news["time"]}}</p>
+        </div>
+        {% endfor %}
+    </body>
+</html>
