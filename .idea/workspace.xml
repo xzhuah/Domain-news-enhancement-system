@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95bd6de7-d087-4e24-8b0a-2b6a2ad4130d" name="Default" comment="" />
+    <list default="true" id="95bd6de7-d087-4e24-8b0a-2b6a2ad4130d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Crawler/fin_news_crawler.py" afterPath="$PROJECT_DIR$/Crawler/fin_news_crawler.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +27,7 @@
       <file leaf-file-name="feedback.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FeedBackSystem/feedback.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1323">
+            <state relative-caret-position="-1305">
               <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -31,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fin_news_crawler.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fin_news_crawler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Crawler/fin_news_crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+            <state relative-caret-position="297">
+              <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -44,8 +49,8 @@
       <file leaf-file-name="LocalTextReader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TextProcessingTools/LocalTextReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="261">
+              <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="36" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -53,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsRanker.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewsRanker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnalysisTookKit/NewsRanker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="-864">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="e#83#92#0" expanded="true" />
               </folding>
@@ -65,11 +70,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sortedResult.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sortedResult.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NewsReader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FeedBackSystem/NewsReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="747">
+              <caret line="85" column="24" lean-forward="false" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
               <folding>
                 <element signature="e#13#24#0" expanded="true" />
               </folding>
@@ -116,6 +131,9 @@
       <find>sorted</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -128,8 +146,8 @@
         <option value="$PROJECT_DIR$/FeedBackSystem/templates/basicHtml.html" />
         <option value="$PROJECT_DIR$/FeedBackSystem/NewsReader.py" />
         <option value="$PROJECT_DIR$/AnalysisTookKit/NewsRanker.py" />
-        <option value="$PROJECT_DIR$/Crawler/fin_news_crawler.py" />
         <option value="$PROJECT_DIR$/FeedBackSystem/feedback.py" />
+        <option value="$PROJECT_DIR$/Crawler/fin_news_crawler.py" />
       </list>
     </option>
   </component>
@@ -144,6 +162,7 @@
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -348,15 +367,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18850698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18850698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -712,39 +732,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FeedBackSystem/NewsReader.kv" />
-    <entry file="file://$PROJECT_DIR$/Crawler/fin_news_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/feedback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1323">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FeedBackSystem/templates/basicHtml.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="54" column="66" lean-forward="false" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextProcessingTools/LocalTextReader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,21 +748,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/NewsReader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newstext.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1863">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalysisTookKit/NewsRanker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#83#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -782,13 +774,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnalysisTookKit/NewsRanker.py">
+    <entry file="file://$PROJECT_DIR$/TextProcessingTools/LocalTextReader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="261">
+          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="36" />
           <folding>
-            <element signature="e#83#92#0" expanded="true" />
+            <element signature="e#1#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeedBackSystem/NewsReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="85" column="24" lean-forward="false" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <folding>
+            <element signature="e#13#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeedBackSystem/feedback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1305">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/fin_news_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

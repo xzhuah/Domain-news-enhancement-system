@@ -65,7 +65,10 @@ def extractNewsOnPages(start_page = 1, end_page = 10):
 
 
 if __name__ == "__main__":
-    extractNewsOnPages(1,5)
+
+    start_page = 1
+    end_page = 5
+    extractNewsOnPages(start_page,end_page)
     all_text = ""
     file = "../news_store.csv"
     f = open(file, "w",newline='')
